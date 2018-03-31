@@ -1,0 +1,43 @@
+.five-section {
+	background: url('../img/bg-5.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	padding: 120px 0 200px 0;
+	.ba-container {
+		.five-section__content {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			h2 {
+				padding-bottom: 90px;
+				font-size: 36px;
+				line-height: 0.72;
+			}
+			.five-section__content-down {
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+				img {
+					width: 445px;
+					height: 338px;
+				}
+				.five-section__content-down--text {
+					padding: 50px 60px;
+					background-color: #333333;
+					h3 {
+						font-size: 20px;
+						line-height: 1.3;
+						color: #fefefe;
+						padding-bottom: 30px;
+					}
+					p {
+						font-size: 16px;
+						line-height: 1.63;
+						color: #e8e8e8;
+					}
+				}
+			}
+		}
+	}
+}
